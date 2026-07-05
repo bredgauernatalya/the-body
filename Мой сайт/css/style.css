@@ -1,0 +1,2216 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFDFB;
+    color: #3A3A3A;
+}
+
+/* ===== HEADER ===== */
+
+.navbar {
+    padding: 18px 0;
+    background-color: #FFFDFB !important;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: auto;
+    color: #C89A72 !important;
+}
+
+.nav-link {
+    color: #3A3A3A !important;
+    font-weight: 500;
+    margin-left: 12px;
+    margin-right: 12px;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    color: #C89A72 !important;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+    display: block;
+}
+
+.btn-book {
+    background-color: #C89A72;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 24px;
+    transition: 0.3s;
+}
+
+.btn-book:hover {
+    background-color: #b88760;
+    color: white;
+}
+
+/* HERO */
+
+.hero {
+    padding: 80px 0;
+}
+
+.hero-subtitle {
+    color: #C89A72;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 56px;
+    line-height: 1.15;
+    margin: 18px 0;
+    color: #3A3A3A;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #666;
+    max-width: 500px;
+    margin-bottom: 35px;
+}
+
+.hero-image {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+}
+
+/* ======================
+      ADVANTAGES
+====================== */
+
+.advantages {
+
+    padding: 90px 0;
+
+}
+
+.adv-card {
+
+    background: #fff;
+
+    padding: 40px 30px;
+
+    border-radius: 20px;
+
+    transition: .35s;
+
+    height: 100%;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .05);
+
+
+}
+
+.adv-card:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 20px 45px rgba(0, 0, 0, .10);
+
+}
+
+.adv-card i {
+
+    font-size: 42px;
+
+    color: #C89A72;
+
+}
+
+.adv-card h5 {
+
+    margin-top: 25px;
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 26px;
+
+}
+
+.adv-card p {
+
+    margin-top: 15px;
+
+    color: #777;
+
+}
+
+.hero-features {
+
+    margin-top: 50px;
+
+}
+
+.feature {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 18px;
+
+}
+
+.feature i {
+
+    color: #C89A72;
+
+    font-size: 22px;
+
+}
+
+.feature span {
+
+    font-size: 17px;
+
+    color: #555;
+
+}
+
+/* ==========================
+        ABOUT
+========================== */
+
+
+.section-subtitle {
+
+    color: #C89A72;
+
+    letter-spacing: 2px;
+
+    font-weight: 600;
+
+}
+
+.section-title {
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 52px;
+
+    margin: 20px 0;
+
+}
+
+.about {
+
+    padding: 80px 0;
+
+}
+
+.about-text {
+
+    color: #666;
+
+    line-height: 1.9;
+
+    margin-bottom: 40px;
+
+}
+
+.about-list {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 35px 0;
+
+}
+
+.about-list li {
+
+    margin-bottom: 15px;
+
+    font-size: 17px;
+
+    color: #555;
+
+}
+
+.about-image {
+    max-width: 360px;
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, .08);
+}
+
+.about-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.about-info {
+
+    display: flex;
+
+    gap: 50px;
+
+    margin-top: 20px;
+
+}
+
+.about-info h3 {
+
+    color: #C89A72;
+
+    font-size: 40px;
+
+    margin-bottom: 5px;
+
+}
+
+.about-info span {
+
+    color: #777;
+
+}
+
+.quote {
+
+    border-left: 4px solid #C89A72;
+
+    padding-left: 20px;
+
+    color: #777;
+
+    font-style: italic;
+
+    font-size: 22px;
+
+    margin: 30px 0 70px;
+
+    max-width: 600px;
+
+}
+
+/*=========================
+        SERVICES
+==========================*/
+
+.services {
+
+    padding: 100px 0;
+
+}
+
+.service-card {
+
+    position: relative;
+    overflow: hidden;
+    border-radius: 24px;
+    height: 360px;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, .08);
+
+}
+
+.service-card img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .6s;
+
+}
+
+.service-card:hover img {
+
+    transform: scale(1.08);
+
+}
+
+.overlay {
+
+    position: absolute;
+    inset: 0;
+    padding: 32px;
+    background: linear-gradient(to top,
+            rgba(0, 0, 0, .82) 0%,
+            rgba(0, 0, 0, .45) 45%,
+            rgba(0, 0, 0, .08) 100%);
+
+}
+
+.overlay h3 {
+
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    margin-bottom: 8px;
+
+}
+
+.overlay a {
+
+    width: 48px;
+
+    height: 48px;
+
+    border-radius: 50%;
+
+    background: #C89A72;
+
+    color: white;
+
+    text-decoration: none;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 28px;
+
+    transition: .3s;
+
+}
+
+.overlay p {
+
+    color: rgba(255, 255, 255, .82);
+    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+
+.overlay a:hover {
+
+    background: white;
+
+    color: #C89A72;
+
+}
+
+/* ===== ПРАЙС ===== */
+
+.price {
+
+    padding: 120px 0;
+
+}
+
+.section-text {
+
+    color: #777;
+    margin-top: 15px;
+    font-size: 18px;
+
+}
+
+.price-tabs {
+
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
+}
+
+.tab-btn {
+
+    border: 1px solid #C89A72;
+    background: white;
+    color: #C89A72;
+
+    padding: 12px 28px;
+
+    border-radius: 40px;
+
+    transition: .3s;
+
+    font-weight: 500;
+
+}
+
+.tab-btn:hover {
+
+    background: #C89A72;
+    color: white;
+
+}
+
+.tab-btn.active {
+
+    background: #C89A72;
+    color: white;
+
+}
+
+.price-box {
+
+    max-width: 850px;
+
+    margin: auto;
+
+    background: white;
+
+    border-radius: 25px;
+
+    padding: 45px;
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .08);
+
+}
+
+.price-row {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 18px 0;
+
+    border-bottom: 1px solid #eee;
+
+}
+
+.price-row:last-child {
+
+    border: none;
+
+}
+
+.price-row span:first-child {
+
+    font-size: 18px;
+
+}
+
+.price-row span:last-child {
+
+    color: #C89A72;
+
+    font-weight: 600;
+
+    font-size: 20px;
+
+}
+
+/* ===== АКЦИЯ ===== */
+
+.discount {
+
+    padding: 120px 0;
+
+}
+
+.discount-box {
+
+    max-width: 700px;
+
+    margin: auto;
+
+    background: #F7F2EC;
+
+    border-radius: 35px;
+
+    padding: 70px 50px;
+
+    text-align: center;
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .08);
+
+}
+
+.discount-text {
+
+    font-size: 24px;
+
+    color: #666;
+
+    margin-top: 25px;
+
+}
+
+.discount-percent {
+
+    font-size: 90px;
+
+    font-weight: 700;
+
+    color: #C89A72;
+
+    margin: 20px 0;
+
+    font-family: 'Playfair Display', serif;
+
+}
+
+.discount-note {
+
+    color: #777;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+}
+
+/* ===== ВАЖНАЯ ИНФОРМАЦИЯ ===== */
+
+.info {
+
+    padding: 120px 0;
+
+}
+
+.info-card {
+
+    background: #ffffff;
+
+    border-radius: 30px;
+
+    padding: 40px;
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .08);
+
+    height: 100%;
+
+}
+
+.info-card h3 {
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 32px;
+
+    margin-bottom: 30px;
+
+    color: #3A3A3A;
+
+}
+
+.info-card ul {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+
+}
+
+.info-card li {
+
+    font-size: 17px;
+
+    color: #666;
+
+    line-height: 1.9;
+
+    margin-bottom: 18px;
+
+}
+
+/* ===== ОТЗЫВЫ ===== */
+
+.reviews {
+
+    padding: 120px 0;
+
+    background: #F7F2EC;
+
+}
+
+.review-card {
+
+    background: #fff;
+
+    border-radius: 30px;
+
+    padding: 35px;
+
+    text-align: center;
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .08);
+
+    height: 100%;
+
+}
+
+.review-card img {
+
+    width: 90px;
+
+    height: 90px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    margin-bottom: 20px;
+
+}
+
+.review-card h4 {
+
+    font-family: 'Playfair Display', serif;
+
+    margin-bottom: 10px;
+
+    font-size: 28px;
+
+}
+
+.stars {
+
+    color: #C89A72;
+
+    font-size: 22px;
+
+    margin-bottom: 20px;
+
+    letter-spacing: 3px;
+
+}
+
+.review-card p {
+
+    color: #666;
+
+    line-height: 1.8;
+
+    font-size: 16px;
+
+}
+
+/* ===== FAQ ===== */
+
+.faq {
+
+    padding: 120px 0;
+
+}
+
+.accordion-item {
+
+    border: none;
+
+    border-radius: 20px !important;
+
+    overflow: hidden;
+
+    margin-bottom: 20px;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .07);
+
+}
+
+.accordion-button {
+
+    background: white;
+
+    font-size: 20px;
+
+    font-weight: 600;
+
+    color: #3A3A3A;
+
+    padding: 25px;
+
+}
+
+.accordion-button:not(.collapsed) {
+
+    background: #FFF7F1;
+
+    color: #C89A72;
+
+    box-shadow: none;
+
+}
+
+.accordion-button:focus {
+
+    box-shadow: none;
+
+}
+
+.accordion-body {
+
+    font-size: 17px;
+
+    color: #666;
+
+    line-height: 1.8;
+
+}
+
+/* ===== КОНТАКТЫ ===== */
+
+.contacts {
+
+    padding: 120px 0;
+
+}
+
+.contact-card {
+
+    background: #fff;
+
+    border-radius: 30px;
+
+    padding: 45px;
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .08);
+
+    height: 100%;
+
+}
+
+.contact-item {
+
+    display: flex;
+
+    gap: 20px;
+
+    margin-bottom: 35px;
+
+}
+
+.contact-item:last-child {
+
+    margin-bottom: 0;
+
+}
+
+.contact-item i {
+
+    font-size: 30px;
+
+    color: #C89A72;
+
+}
+
+.contact-item h5 {
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 24px;
+
+    margin-bottom: 8px;
+
+}
+
+.contact-item p {
+
+    margin: 0;
+
+    color: #666;
+
+    line-height: 1.8;
+
+}
+
+.contact-item a {
+
+    color: #666;
+
+    text-decoration: none;
+
+}
+
+.contact-item a:hover {
+
+    color: #C89A72;
+
+}
+
+.map-box {
+
+    overflow: hidden;
+
+    border-radius: 30px;
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .08);
+
+    height: 100%;
+
+}
+
+.map-box iframe {
+
+    width: 100%;
+
+    height: 100%;
+
+    min-height: 450px;
+
+    border: 0;
+
+}
+
+/* =========================
+        FOOTER
+========================= */
+
+.footer {
+
+    background: #F6EFE8;
+
+    padding: 90px 0;
+
+    text-align: center;
+
+}
+
+.footer-divider {
+
+    width: 120px;
+
+    height: 2px;
+
+    background: #C89A72;
+
+    margin: 0 auto 45px;
+
+    border-radius: 5px;
+
+}
+
+.footer-title {
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 58px;
+
+    letter-spacing: 4px;
+
+    color: #3A3A3A;
+
+    margin-bottom: 15px;
+
+}
+
+.footer-subtitle {
+
+    font-size: 18px;
+
+    color: #777;
+
+    margin-bottom: 35px;
+
+}
+
+.footer-heart {
+
+    font-size: 34px;
+
+    color: #C89A72;
+
+    margin-bottom: 25px;
+
+}
+
+.footer-quote {
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 34px;
+
+    color: #3A3A3A;
+
+    line-height: 1.4;
+
+    margin-bottom: 35px;
+
+}
+
+.footer-thanks {
+
+    font-size: 20px;
+
+    color: #666;
+
+    line-height: 1.8;
+
+    margin-bottom: 45px;
+
+}
+
+.copyright {
+
+    color: #999;
+
+    font-size: 15px;
+
+    letter-spacing: 2px;
+
+}
+
+/* ===================================
+        ПЛАНШЕТ
+=================================== */
+
+@media (min-width:768px) and (max-width:991px){
+
+
+    .logo{
+        height:95px;
+    }
+
+    .navbar{
+        padding:16px 0;
+    }
+
+    .navbar-nav{
+        text-align:center;
+        margin-top:18px;
+    }
+
+    .nav-item{
+        margin:8px 0;
+    }
+
+    .btn-book{
+        width:220px;
+        margin:18px auto 0;
+        display:block;
+    }
+
+    /* ================= HERO ================= */
+
+    .hero{
+        padding:70px 0;
+    }
+
+    .hero .row{
+        align-items:center;
+    }
+
+    .hero-subtitle{
+        font-size:13px;
+    }
+
+    .hero-title{
+        font-size:35px;
+        line-height:1.15;
+    }
+
+    .hero-text{
+        font-size:17px;
+        line-height:1.8;
+    }
+
+    .hero-image{
+        width:100%;
+        max-width:360px;
+        display:block;
+        margin:0 auto;
+    }
+
+    .hero-buttons{
+        display:flex;
+        gap:14px;
+        justify-content:flex-start;
+        flex-wrap:wrap;
+    }
+
+    .hero-buttons .btn{
+        width:auto;
+    }
+
+    /* ================= ADVANTAGES ================= */
+
+    .advantages{
+        padding:70px 0;
+    }
+
+    .advantages .row{
+        row-gap:24px;
+    }
+
+    .adv-card{
+        padding:35px 28px;
+        border-radius:22px;
+    }
+
+    .adv-card h5{
+        font-size:24px;
+    }
+
+    .adv-card p{
+        font-size:15px;
+    }
+
+    /* ================= ABOUT ================= */
+
+    .about{
+        padding:80px 0;
+    }
+
+    .about-photo{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .about-image{
+        max-width:300px;
+        width:100%;
+    }
+
+    .about .section-subtitle{
+        font-size:13px;
+    }
+
+    .about .section-title{
+        font-size:36px;
+        line-height:1.2;
+        margin-bottom:20px;
+    }
+
+    .about-text{
+        font-size:16px;
+        line-height:1.8;
+    }
+
+    .about-list{
+        margin:25px 0;
+        padding:0;
+        list-style:none;
+    }
+
+    .about-list li{
+        font-size:16px;
+        margin-bottom:12px;
+    }
+
+    .about-info{
+        display:flex;
+
+    justify-content:center;
+
+    gap:35px;
+
+    margin-top:25px;
+    }
+
+    .about-info div{
+        flex:none;
+
+    width:100px;
+
+    text-align:center;
+    }
+
+    .about-info h3{
+      font-size:20px;
+    }
+
+    .about-info span{
+        display:block;
+        font-size:14px;
+        line-height:1.4;
+    }
+
+    /* ================= SERVICES ================= */
+
+    .services{
+        padding:80px 0;
+    }
+
+    .services .section-title{
+        font-size:42px;
+    }
+
+    .services .section-subtitle{
+        font-size:13px;
+    }
+
+    .service-card{
+        margin-bottom:28px;
+        height:340px;
+    }
+
+    .service-card img{
+        height:340px;
+
+    object-fit:cover;
+    }
+
+    .overlay{
+        padding:28px;
+    }
+
+    .overlay h3{
+        font-size:24px;
+    }
+
+    .overlay p{
+        font-size:15px;
+    }
+
+    /* ================= PRICE ================= */
+
+    .price{
+        padding:80px 0;
+    }
+
+    .price .section-title{
+        font-size:42px;
+    }
+
+    .price-box{
+        max-width:700px;
+        padding:30px;
+    }
+
+    .price-row span{
+        font-size:17px;
+    }
+
+    /* ================= DISCOUNT ================= */
+
+    .discount{
+        padding:80px 0;
+    }
+
+    .discount-box{
+        max-width:600px;
+        padding:50px 40px;
+    }
+
+    .discount-percent{
+        font-size:56px;
+    }
+
+    /* ================= INFO ================= */
+
+    .info{
+        padding:80px 0;
+    }
+
+    .info-card{
+        padding:30px;
+    }
+
+    .info-card h3{
+        font-size:24px;
+    }
+
+    .info-card li{
+        font-size:16px;
+    }
+
+    /* ================= REVIEWS ================= */
+
+    .reviews{
+        padding:80px 0;
+    }
+
+    .review-card{
+        padding:30px;
+    }
+
+    .review-card h4{
+        font-size:22px;
+    }
+
+    .review-card p{
+        font-size:16px;
+    }
+
+    /* ================= FAQ ================= */
+
+    .faq{
+        padding:80px 0;
+    }
+
+    .accordion-button{
+        font-size:17px;
+    }
+
+    .accordion-body{
+        font-size:16px;
+    }
+
+    /* ================= CONTACTS ================= */
+
+    .contacts{
+        padding:80px 0;
+    }
+
+    .contact-card{
+        padding:30px;
+    }
+
+    .contact-item h5{
+        font-size:18px;
+    }
+
+    .contact-item p,
+    .contact-item a{
+        font-size:16px;
+    }
+
+    .map-box iframe{
+        min-height:360px;
+    }
+
+    /* ================= FOOTER ================= */
+
+    .footer{
+        padding:60px 0 40px;
+    }
+
+    .footer-title{
+        font-size:38px;
+    }
+
+    .footer-subtitle{
+        font-size:15px;
+    }
+
+    .footer-quote{
+        font-size:18px;
+    }
+
+    .footer-thanks{
+        font-size:15px;
+    }
+
+    .copyright{
+        font-size:14px;
+    }
+
+}
+
+/* ===================================
+        МОБИЛЬНЫЕ
+=================================== */
+
+@media (max-width:767px){
+
+    /* HEADER */
+
+    .logo {
+        height: 75px;
+    }
+
+    .navbar {
+        padding: 12px 0;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-toggler {
+
+        border: none;
+
+        padding: 8px;
+
+    }
+
+    .navbar-toggler-icon {
+
+        width: 1.6em;
+
+        height: 1.6em;
+
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .btn-book {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* HERO */
+
+    .hero {
+
+        padding-top: 20px;
+        padding-bottom: 50px;
+
+        text-align: center;
+
+    }
+
+    .hero .row {
+
+        flex-direction: column-reverse;
+
+    }
+
+    .hero-image {
+
+        width: 90%;
+        margin: 0 auto 30px;
+        display: block;
+        border-radius: 24px;
+ max-width:320px;
+
+    margin:25px auto 0;
+    }
+
+    .hero-title {
+
+        font-size:30px;
+        line-height:1.2;
+        margin-bottom:18px;
+
+    }
+
+    .hero-text {
+
+        font-size: 18px;
+    line-height: 1.7;
+    max-width: 330px;
+    margin: 0 auto 28px;
+
+    }
+
+    .hero-subtitle {
+
+        font-size: 12px;
+
+        letter-spacing: 2px;
+
+    }
+
+    .hero .btn {
+
+        width: 220px;
+        height: 52px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: 12px auto;
+
+        border-radius: 30px;
+        display: block;
+
+        width: 210px;
+
+        margin: 12px auto;
+        min-width: 180px;
+
+
+
+    }
+
+}
+
+
+.hero-buttons {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin-top: 30px;
+margin-bottom:35px;
+}
+
+.hero-buttons .btn {
+
+    width: 220px;
+    height: 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+
+    border-radius: 30px;
+
+}
+
+.btn-outline-dark {
+
+    border: 1.5px solid #C89A72;
+    color: #3A3A3A;
+
+}
+
+.btn-outline-dark:hover {
+
+    background: #C89A72;
+    color: #fff;
+    border-color: #C89A72;
+
+}
+
+/* ===========================
+   ПРЕИМУЩЕСТВА
+=========================== */
+
+.features {
+
+    padding: 50px 0;
+
+}
+
+.features .col-lg-3,
+.features .col-md-6 {
+
+    margin-bottom: 20px;
+
+}
+
+.feature-card {
+
+    padding: 35px 25px;
+
+    border-radius: 22px;
+
+    min-height: 220px;
+
+}
+
+.feature-card i {
+
+    font-size: 30px;
+
+    margin-bottom: 18px;
+
+}
+
+.feature-card h3 {
+
+    font-size: 24px;
+
+    margin-bottom: 15px;
+
+}
+
+.feature-card p {
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+}
+
+/* ===========================
+   ПРЕИМУЩЕСТВА
+=========================== */
+
+.advantages {
+
+    padding: 50px 0;
+
+}
+
+.adv-card {
+
+    padding: 35px 25px;
+
+    border-radius: 22px;
+
+    min-height: 220px;
+
+    margin-bottom: 20px;
+
+}
+
+.adv-card i {
+
+    font-size: 34px;
+
+    margin-bottom: 20px;
+
+    display: block;
+
+}
+
+.adv-card h5 {
+
+    font-size: 24px;
+
+    margin-bottom: 15px;
+
+}
+
+.adv-card p {
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+    margin-bottom: 0;
+
+}
+
+.about-image {
+
+    width: 85%;
+    display: block;
+    margin: 0 auto 30px;
+
+}
+
+.section-subtitle {
+
+    font-size: 12px;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+
+}
+
+.about .section-title {
+
+    font-size: 28px;
+
+    line-height: 1.15;
+
+    text-align: center;
+
+    margin-bottom: 18px;
+
+}
+
+.about-text {
+
+    font-size: 16px;
+
+    line-height: 1.8;
+
+    text-align: center;
+
+}
+
+.about-list {
+
+    padding-left: 0;
+
+    list-style: none;
+
+}
+
+.about-list li {
+
+    font-size: 16px;
+
+    margin-bottom: 14px;
+
+}
+
+.about-info {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 18px;
+
+    margin-top: 25px;
+text-align:center;
+}
+
+.about-info div {
+
+    flex: 1;
+
+    text-align: center;
+
+}
+
+
+
+.about-info span {
+
+    font-size: 13px;
+line-height:1.3;
+}
+
+.quote {
+
+    text-align: center;
+
+    border: none;
+
+    padding-left: 0;
+
+    font-size: 18px;
+
+    margin-top: 30px;
+
+    color: #777;
+
+}
+
+/* ===========================
+   ПОПУЛЯРНЫЕ ЗОНЫ
+=========================== */
+
+
+
+@media (max-width:767px) {
+
+    .about-info h3{
+
+    font-size:26px;
+
+    margin-bottom:5px;
+
+}
+
+    .service-card {
+
+        margin-bottom: 20px;
+
+    }
+
+    .overlay {
+
+        padding: 25px;
+
+    }
+
+    .overlay h3 {
+
+        font-size: 30px;
+
+    }
+
+    .overlay p {
+
+        font-size: 14px;
+
+    }
+
+}
+
+.btn-service {
+
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+
+    border-radius: 50%;
+}
+
+.services .section-title {
+
+    font-size: 30px;
+    line-height: 1.2;
+
+}
+
+.services .section-subtitle {
+
+    font-size: 12px;
+
+}
+
+/* ===========================
+   ПРАЙС
+=========================== */
+
+.price {
+
+    padding: 60px 0;
+
+}
+
+.price .section-title {
+
+    font-size: 32px;
+    line-height: 1.2;
+
+}
+
+.price .section-text {
+
+    font-size: 15px;
+
+}
+
+.price-tabs {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.tab-btn {
+
+    min-width: 95px;
+    padding: 12px 18px;
+    font-size: 15px;
+    border-radius: 30px;
+
+}
+
+.price-box {
+
+    width: 100%;
+    border-radius: 20px;
+    padding: 18px;
+    margin-top: 30px;
+
+}
+
+.price-row {
+
+    padding: 16px 0;
+
+}
+
+.price-row span:first-child {
+
+    font-size: 16px;
+
+}
+
+.price-row span:last-child {
+
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.combo-row {
+
+    display: block;
+
+}
+
+.combo-row div {
+
+    font-size: 16px;
+    line-height: 1.7;
+
+}
+
+.combo-price {
+
+    display: block;
+
+    text-align: right;
+
+    margin-top: 12px;
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+    color: #C89A72;
+
+}
+
+/* ===========================
+   АКЦИЯ
+=========================== */
+
+.discount {
+
+    padding: 60px 0;
+
+}
+
+.discount-box {
+
+    padding: 35px 25px;
+
+    border-radius: 24px;
+
+    max-width: 340px;
+
+    margin: 0 auto;
+
+}
+
+.discount-box h2 {
+
+    font-size: 30px;
+
+    line-height: 1.2;
+
+    margin-bottom: 18px;
+
+}
+
+.discount-box p {
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+}
+
+.discount-percent {
+
+    font-size: 54px;
+
+    margin: 18px 0;
+
+}
+
+/* ===========================
+   ПОДГОТОВКА
+=========================== */
+
+.info {
+
+    padding: 60px 0;
+
+}
+
+.info .row {
+
+    gap: 20px;
+
+}
+
+.info-card {
+
+    margin-bottom: 0;
+
+    padding: 28px;
+
+    border-radius: 22px;
+
+}
+
+.info-card h3 {
+
+    font-size: 24px;
+
+    margin-bottom: 20px;
+
+}
+
+.info-card li {
+
+    font-size: 15px;
+
+    line-height: 1.8;
+
+    margin-bottom: 10px;
+
+}
+
+.info .section-title {
+
+    font-size: 30px;
+    line-height: 1.2;
+
+}
+
+/* ===========================
+   ОТЗЫВЫ
+=========================== */
+
+.reviews {
+
+    padding: 60px 0;
+
+}
+
+.reviews .section-title {
+
+    font-size: 30px;
+    line-height: 1.2;
+
+}
+
+.review-card {
+
+    padding: 25px 20px;
+
+    border-radius: 20px;
+
+    margin-bottom: 18px;
+
+    text-align: center;
+
+}
+
+.review-card h4 {
+
+    font-size: 20px;
+
+    margin-bottom: 8px;
+
+}
+
+.review-stars {
+
+    font-size: 15px;
+
+    margin-bottom: 12px;
+
+}
+
+.review-card p {
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+    margin-bottom: 0;
+
+}
+
+/* ===========================
+   FAQ
+=========================== */
+
+.faq {
+
+    padding: 60px 0;
+
+}
+
+.faq .section-title {
+
+    font-size: 30px;
+    line-height: 1.2;
+
+}
+
+.faq .section-subtitle {
+
+    font-size: 12px;
+
+}
+
+.accordion {
+
+    margin-top: 30px;
+
+}
+
+.accordion-item {
+
+    border: none;
+    border-radius: 18px !important;
+    overflow: hidden;
+    margin-bottom: 12px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .06);
+
+}
+
+.accordion-button {
+
+    padding: 18px 20px;
+
+    font-size: 16px;
+
+    font-weight: 500;
+
+    line-height: 1.5;
+
+}
+
+.accordion-button:not(.collapsed) {
+
+    background: #FFFDFB;
+    color: #3A3A3A;
+
+    box-shadow: none;
+
+}
+
+.accordion-button:focus {
+
+    box-shadow: none;
+    border: none;
+
+}
+
+.accordion-body {
+
+    font-size: 15px;
+
+    line-height: 1.8;
+
+    padding: 18px 20px 22px;
+
+}
+
+/* ===========================
+   КОНТАКТЫ
+=========================== */
+
+.contacts {
+
+    padding: 60px 0;
+
+}
+
+.contacts .section-title {
+
+    font-size: 30px;
+    line-height: 1.2;
+
+}
+
+.contacts .section-subtitle {
+
+    font-size: 12px;
+
+}
+
+.contact-card {
+
+    padding: 25px;
+
+    border-radius: 22px;
+
+    margin-bottom: 20px;
+
+}
+
+.contact-item {
+
+    margin-bottom: 22px;
+
+}
+
+.contact-item i {
+
+    font-size: 20px;
+
+    margin-right: 12px;
+
+    color: #C89A72;
+
+}
+
+.contact-item h5 {
+
+    font-size: 16px;
+
+    margin-bottom: 5px;
+
+}
+
+.contact-item a,
+.contact-item p {
+
+    font-size: 15px;
+
+    line-height: 1.6;
+
+    margin: 0;
+
+}
+
+.map {
+
+    margin-top: 20px;
+
+    border-radius: 22px;
+
+    overflow: hidden;
+
+}
+
+.map iframe {
+
+    width: 100%;
+
+    height: 320px;
+
+    border: 0;
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer {
+
+    padding: 50px 20px 35px;
+
+    text-align: center;
+
+}
+
+.footer-divider {
+
+    width: 80px;
+
+    margin: 0 auto 25px;
+
+}
+
+.footer-title {
+
+    font-size: 34px;
+
+    margin-bottom: 10px;
+
+}
+
+.footer-subtitle {
+
+    font-size: 14px;
+
+    margin-bottom: 18px;
+
+}
+
+.footer-heart {
+
+    font-size: 18px;
+
+    margin: 15px 0;
+
+    color: #C89A72;
+
+}
+
+.footer-quote {
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+    margin-bottom: 18px;
+
+}
+
+.footer-thanks {
+
+    font-size: 14px;
+
+    line-height: 1.8;
+
+    margin-bottom: 25px;
+
+}
+
+.copyright {
+
+    font-size: 13px;
+
+    color: #999;
+
+}
+
